@@ -1,23 +1,74 @@
+/*General*/
 
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-html {
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
 
-    font-size: 16px;
+:root {
+    --primaire: #9356DC;
+    --secondaire: #FF79DA;
+    --tertiaire: #99E2D0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
 }
 
-h1 {
-    font-family: "shrikhand";
+/*Header*/
+
+header {
+    font-family: 'Shrikhand', cursive;
     text-align: center;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 /25%);
+    padding: 0.3rem;
 }
 
-p {
-    font-family: roboto;
+/*Main*/
+
+/*Main : ville*/
+
+main .ville  {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+main .ville i {
+    font-size: 1.2rem;
+}
+main .ville p {
+    font-weight: 900;
     font-size: 18px;
+}
+
+/*Main : Recherche*/
+
+.recherche {
     text-align: center;
+    padding: 2rem;
+}
+.recherche p {
+    font-weight: 300;
+}
+.recherche button {
+    padding: 1rem;
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(245,115,209,1) 0%, rgba(147,86,220,1) 100%);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 /25%);
+
 }
