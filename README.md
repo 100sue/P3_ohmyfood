@@ -1,17 +1,30 @@
 <strong>Projet-3: Oh myfood (Projet Openclassrooms).</strong>
 
-Dynamisez une page web avec des animations css.
+Troisième projet du parcours "Développeur web" chez OpenClassroom.<br>
+L'objectif d'intégrer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass.<br>
+<br>
+
+<strong>Compétences visées : Dynamisez une page web avec des animations css.</strong><br>
+
+[ ]  Mettre en place une structure de navigation pour un site web.<br>
+[ ]  Mettre en place son environnement Front-End.<br>
+[ ]  Utiliser un système de gestion de versions pour le suivi du projet et son hébergement.<br>
+[ ]  Mettre en œuvre des effets CSS graphiques avancés.<br>
+[ ]  Assurer la cohérence graphique d'un site web.<br>
+<br>
+<br>
 
 ![Maquettes Ohmyfood](https://user-images.githubusercontent.com/90606431/136688997-04a2ac10-b014-4fc2-90ea-3ab74d9f5445.jpg)
 
-<strong>Compétences visées :</strong>
 
-[ ]  Mettre en place une structure de navigation pour un site web.
+<strong>Objectifs :<br></strong>
+Développer un site proposant le menu de 4 grands restaurants parisiens.<br>
+Et, permettre la réservation en ligne et la composition de menus.<br>
 
-[ ]  Mettre en place son environnement Front-End.
+<strong>Livrables :<br></strong>
+Pages à intégrer selon les maquettes :<br>
+- Page d’accueil.<br>
+- Pages de menu (x4).<br>
 
-[ ]  Utiliser un système de gestion de versions pour le suivi du projet et son hébergement.
 
-[ ]  Mettre en œuvre des effets CSS graphiques avancés.
 
-[ ]  Assurer la cohérence graphique d'un site web.
