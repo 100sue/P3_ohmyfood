@@ -1,9 +1,11 @@
-<strong>Projet-3: Oh myfood (Projet Openclassrooms).</strong>
+#<strong>Projet-3: Oh myfood (Projet Openclassrooms).</strong>#
 
 Dynamisez une page web avec des animations css.
 
+![maquette](/P3_ohmyfood/Maquettes Ohmyfood/maquettes/acceuil.png)
 
-<strong>Compétences visées :</strong>
+
+##<strong>Compétences visées :</strong>
 
 Mettre en place une structure de navigation pour un site web.
 
