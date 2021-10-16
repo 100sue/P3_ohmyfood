@@ -161,3 +161,32 @@ main .ville p {
     bottom: 14rem;
 
 }
+
+/*footer*/
+
+.footer {
+    background-color: #353535;
+
+}
+.footer-logo {
+    color: white;
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.2rem;
+    margin: 0 0 1rem; 
+}
+.footer-liste  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-liste-element {
+    margin: 0.5rem 0;
+}
+.footer-lien {
+    color: white;
+    text-decoration: none;
+}
+.footer-icone {
+    width: 1.2rem;
+    margin-right: 0.5rem 0;
+}
