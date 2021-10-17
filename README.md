@@ -12,6 +12,10 @@ L'objectif d'intégrer puis de dynamiser une page web avec des animations CSS en
 [ ]  Mettre en œuvre des effets CSS graphiques avancés.<br>
 [ ]  Assurer la cohérence graphique d'un site web.<br>
 <br>
+
+Accès au projet : https://100sue.github.io/P3_ohmyfood/ (en cours de construction)
+
+<br>
 <br>
 
 ![Maquettes Ohmyfood](https://user-images.githubusercontent.com/90606431/136688997-04a2ac10-b014-4fc2-90ea-3ab74d9f5445.jpg)
