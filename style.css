@@ -59,7 +59,7 @@ a {
 .main .ville i {
     font-size: 1rem;
 }
-main .ville p {
+.main .ville p {
     font-weight: 900;
     font-size: 16px;
 }
@@ -94,6 +94,7 @@ main .ville p {
     max-width: 1280px;
     margin: auto;
     position: relative;
+    
   
 }
 .fonctionnement-titre {
@@ -103,6 +104,8 @@ main .ville p {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
      
 }
 .fonctionnement-demarche {
@@ -114,6 +117,7 @@ main .ville p {
     display: flex;
     align-items: center;
     position: relative;
+    flex: 1;
    
    
 }
@@ -127,12 +131,17 @@ main .ville p {
 .restaurants {
     background-color: white;
     padding: 2rem 1rem;
+    
 }
 
 .restaurants-conteneur {
     max-width: 1280px;
     margin: auto;
-    position: relative;   
+    position: relative; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;  
 }
 .carte {
     display: flex;

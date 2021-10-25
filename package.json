@@ -1,0 +1,22 @@
+{
+  "name": "p3_ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet 3, Openclassrooms : Ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/100sue/P3_ohmyfood.git"
+  },
+  "author": "Roland Appert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/100sue/P3_ohmyfood/issues"
+  },
+  "homepage": "https://github.com/100sue/P3_ohmyfood#readme",
+  "devDependencies": {
+    "sass": "^1.43.3"
+  }
+}
