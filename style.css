@@ -34,6 +34,51 @@ a {
   margin: 0;
 }
 
+.loader {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  background-color: white;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0.9;
+  animation: disparition 200ms;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+  transform-origin: top;
+}
+.loader::after {
+  content: "";
+  height: 100px;
+  width: 100px;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #9356DC;
+  border-bottom: 5px solid #FF79DA;
+  border-radius: 50%;
+  animation: spin 2s infinite linear;
+}
+
+@keyframes disparition {
+  0% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /*Main*/
 /*Main : ville*/
 .main {
@@ -162,6 +207,8 @@ a {
 .restaurants {
   padding: 2rem 1rem;
   background-color: #f6f6f6;
+  height: 1275px;
+  width: 100%;
 }
 
 .restaurants-conteneur {
@@ -175,10 +222,15 @@ a {
 }
 
 .carte {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   border-radius: 1rem;
-  margin: 1rem;
-  min-width: 22rem;
+  height: 250px;
+  width: 90%;
+  margin: 15px auto;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
+  position: relative;
 }
 
 .carte-lien {
@@ -189,7 +241,7 @@ a {
 }
 
 .carte-image {
-  height: 12rem;
+  height: 175px;
   width: 100%;
   border: 0 solid transparent;
   border-radius: 1rem 1rem 0 0;
@@ -214,19 +266,27 @@ a {
   align-items: center;
 }
 
-.carte-footer h3 {
+.carte-footer-detail {
+  flex: 1;
+}
+
+.carte-titre {
   margin: 0 0 0.25rem;
 }
 
-.carte-footer p {
-  margin: 0 0 0.25rem;
+.carte-sous-titre {
+  margin: 0;
 }
 
-.carte-footer i {
+.carte-footer-coeur {
   font-size: 2rem;
-  margin-right: 1rem;
+  border: 0 solid black transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  position: absolute;
+  position: relative;
 }
 
 .carte:hover {
