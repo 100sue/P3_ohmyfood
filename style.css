@@ -23,17 +23,6 @@ a {
   text-decoration: none;
 }
 
-.header {
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
-  padding: 0.5rem;
-}
-.header-logo {
-  font-family: "Shrikhand", cursive;
-  font-size: 20px;
-  text-align: center;
-  margin: 0;
-}
-
 .loader {
   position: fixed;
   display: grid;
@@ -78,6 +67,16 @@ a {
     transform: rotate(360deg);
   }
 }
+.header {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+  padding: 0.5rem;
+}
+.header-logo {
+  font-family: "Shrikhand", cursive;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
 
 /*Main*/
 /*Main : ville*/
@@ -87,7 +86,7 @@ a {
   margin-left: 1rem;
 }
 
-.main .ville {
+.ville {
   margin-top: 0;
   display: flex;
   align-items: center;
@@ -96,12 +95,10 @@ a {
   gap: 1rem;
   padding: 0.5rem;
 }
-
-.main .ville i {
+.ville i {
   font-size: 1rem;
 }
-
-.main .ville p {
+.ville p {
   font-weight: 900;
   font-size: 16px;
 }
@@ -112,11 +109,9 @@ a {
   padding: 2rem;
   background-color: #f6f6f6;
 }
-
 .recherche p {
   font-weight: 300;
 }
-
 .recherche button {
   padding: 1rem;
   margin-top: 1rem;
@@ -128,10 +123,9 @@ a {
   color: white;
   font-size: 1rem;
   font-weight: bold;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
   transition: all 200ms;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
 }
-
 .recherche button:hover {
   transform: scaleX(1.03);
   opacity: 0.9;
@@ -147,8 +141,7 @@ a {
   margin: auto;
   position: relative;
 }
-
-.fonctionnement-titre {
+.fonctionnement-conteneur-titre {
   margin-top: 0;
 }
 
@@ -171,7 +164,6 @@ a {
   position: relative;
   flex: 1;
 }
-
 .fonctionnement-demarche span {
   margin-right: 1rem;
   height: 1.5rem;
@@ -184,20 +176,16 @@ a {
   position: absolute;
   left: -0.5rem;
 }
-
 .fonctionnement-demarche i {
   margin-right: 1rem;
   margin-left: 1rem;
 }
-
 .fonctionnement-demarche:hover {
   transform: scaleX(1.05);
 }
-
 .fonctionnement-demarche i:hover {
   color: #9356DC;
 }
-
 .fonctionnement-demarche-titre {
   padding: 0.5rem;
   margin-right: 2.5rem;

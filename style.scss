@@ -1,170 +1,19 @@
 @import "./sass/base/base.scss";
 @import "./sass/layout/header.scss";
+@import "./sass/layout/ville.scss";
+@import "./sass/layout/recherche.scss";
+@import "./sass/layout/fonctionnement.scss";
 
 
-.loader {
-    position: fixed;
-    display: grid;
-    place-items: center;
-    background-color: white;
-    height: 100vh;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 1;
-    opacity: 0.9;
-    animation: disparition 200ms;
-    animation-fill-mode: forwards;
-    animation-delay: 6s;
-    transform-origin: top;
-    &::after {
-        content: "";
-        height: 100px;
-        width: 100px;
-        border-right: 5px solid transparent;
-        border-top: 5px solid  #9356DC;
-        border-bottom: 5px solid #FF79DA;
-        border-radius: 50%;
-        animation: spin 2s infinite linear;
-    }
-
-}
 
 
-@keyframes disparition {
-    0% {
-        transform: scaleX(1);
-    }
-    100% {
-        transform: scaleX(0);
-    }
-}
-
-@keyframes spin {
-    from {
-        transform: rotate(0);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
 
 
-/*Main*/
-
-/*Main : ville*/
-.main {
-    margin-top: 0;
-    margin-right: 1rem;
-    margin-left: 1rem;
-}
-
-.main .ville  {
-    margin-top: 0;
-    display: flex;
-    align-items: center;
-    background-color: #f3f3f3;
-    justify-content: center;
-    gap: 1rem;
-    padding: 0.5rem;
-}
-.main .ville i {
-    font-size: 1rem;
-}
-.main .ville p {
-    font-weight: 900;
-    font-size: 16px;
-}
-
-/*Main : Recherche*/
-
-.recherche {
-    text-align: center;
-    padding: 2rem;
-    background-color: #f6f6f6;
-}
-.recherche p {
-    font-weight: 300;
-}
-.recherche button {
-    padding: 1rem;
-    margin-top: 1rem;
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
-    padding: 1rem 2rem;
-    border-radius: 2rem;
-    border: none;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    box-shadow: 0 0 0.5rem rgb(0 0 0 /25%);
-    transition: all 200ms;
-}
-.recherche button:hover {
-    transform: scaleX(1.03);
-    opacity: 0.9;
-}
 
 
-/*Main : Fonctionnement*/
-.fonctionnement {
-    padding: 2rem 1rem;
-}
-.fonctionnement-conteneur{
-    max-width: 1280px;
-    margin: auto;
-    position: relative; 
-}
-.fonctionnement-titre {
-    margin-top: 0;
-}
-.fonctionnement-demarches {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;    
-}
 
-.fonctionnement-demarche {
-    background-color: #f6f6f6;
-    border-radius: 1.25rem;
-    box-shadow: .25rem .25rem .5rem rgba(0,0,0,.125);
-    margin: 1rem 0 1rem .75rem;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    position: relative;
-    flex: 1;  
-}
-.fonctionnement-demarche span {
-    margin-right: 1rem;
-    height: 1.5rem;
-    width: 1.5rem;
-    color: white;
-    display: grid;
-    place-items: center;
-    border-radius: 50%;
-    background-color: #9356DC;
-    position: absolute;
-    left: -0.5rem;
-}
-.fonctionnement-demarche i {
-    margin-right: 1rem;
-    margin-left: 1rem;
-}
-.fonctionnement-demarche:hover {
-    transform: scaleX(1.05);
-}
-.fonctionnement-demarche i:hover {
-    color: #9356DC;
-}
 
-.fonctionnement-demarche-titre {
-    padding: 0.5rem;
-    margin-right: 2.5rem;
-}
+
 
 
 
