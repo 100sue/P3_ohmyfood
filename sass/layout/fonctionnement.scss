@@ -17,7 +17,10 @@
     padding: 0;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;    
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
+      
 }
 .fonctionnement-demarche {
     background-color: #f6f6f6;

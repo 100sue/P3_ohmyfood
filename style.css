@@ -150,7 +150,11 @@ a {
   padding: 0;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+}
+@media (max-width: 800px) {
+  .fonctionnement-demarches {
+    flex-direction: column;
+  }
 }
 
 .fonctionnement-demarche {
