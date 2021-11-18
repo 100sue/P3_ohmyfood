@@ -181,7 +181,7 @@ a {
   margin-left: 1rem;
 }
 .fonctionnement-demarche:hover {
-  transform: scaleX(1.05);
+  transform: scaleX(1.03);
 }
 .fonctionnement-demarche i:hover {
   color: #9356DC;
