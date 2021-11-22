@@ -210,45 +210,45 @@ header h2 {
   position: relative;
   border-radius: 2rem 2rem 0 0;
   margin-top: -4rem;
+  display: flex;
 }
 
 /*Main : Restaurants*/
 .restaurants {
   padding: 2rem 1rem;
   background-color: #f6f6f6;
-  height: 1275px;
-  width: 100%;
 }
 
 .restaurants-conteneur {
   max-width: 1280px;
   margin: auto;
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+@media (max-width: 800px) {
+  .restaurants-conteneur {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .carte {
-  display: flex;
-  flex-direction: column;
   background-color: #fff;
   border-radius: 1rem;
   height: 250px;
-  width: 90%;
+  width: 100%;
   margin: 15px auto;
   box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
   position: relative;
 }
-
 .carte-lien {
   position: relative;
   text-decoration: none;
   color: inherit;
   display: block;
 }
-
 .carte-image {
   height: 175px;
   width: 100%;
@@ -257,7 +257,6 @@ header h2 {
   box-shadow: none;
   object-fit: cover;
 }
-
 .carte-badge {
   background-color: var(--tertiaire);
   color: #1b6150;
@@ -267,29 +266,25 @@ header h2 {
   top: 1rem;
   right: 0.75rem;
 }
-
 .carte-footer {
   padding: 1rem;
   position: relative;
   display: flex;
   align-items: center;
 }
-
 .carte-footer-detail {
   flex: 1;
 }
-
-.carte-titre {
+.carte-footer-detail-titre {
   margin: 0 0 0.25rem;
 }
-
-.carte-sous-titre {
+.carte-footer-detail-sous-titre {
   margin: 0;
 }
-
 .carte-footer-coeur {
   font-size: 2rem;
-  border: 0 solid black transparent;
+  border: 0 solid transparent;
+  background-color: transparent;
   padding: 0;
   display: flex;
   align-items: center;
@@ -297,7 +292,6 @@ header h2 {
   cursor: pointer;
   position: relative;
 }
-
 .carte:hover {
   transform: scaleX(1.05);
 }

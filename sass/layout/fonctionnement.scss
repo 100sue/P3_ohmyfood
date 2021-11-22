@@ -1,4 +1,7 @@
 @import "../utils/zoom.scss";
+@import "../utils/couleurs.scss";
+@import "../utils/variables.scss";
+
 
 /*Main : Fonctionnement*/
 .fonctionnement {
@@ -17,7 +20,7 @@
     padding: 0;
     list-style: none;
     display: flex;
-    @media (max-width: 800px) {
+    @media (max-width: $breakpoint) {
         flex-direction: column;
     }
       
@@ -40,7 +43,7 @@
         display: grid;
         place-items: center;
         border-radius: 50%;
-        background-color: #9356DC;
+        background-color: $violet;
         position: absolute;
         left: -0.5rem;
     }

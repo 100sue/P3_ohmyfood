@@ -1,0 +1,87 @@
+@import "../utils/variables.scss";
+
+/*Main : Restaurants*/
+
+.restaurants {
+    padding: 2rem 1rem;
+    background-color: #f6f6f6;
+    
+}
+
+.restaurants-conteneur {
+    max-width: 1280px;
+    margin: auto;
+    position: relative; 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    @media (max-width: 800px) {
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+}
+
+.carte {
+    background-color: #fff;
+    border-radius: 1rem;
+    height: 250px;
+    width: 100%;
+    margin: 15px auto;
+    box-shadow: .25rem .25rem .5rem rgba(0,0,0,.125);
+    position: relative;
+    &-lien {
+        position: relative;
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+    &-image {
+        height: 175px;
+        width: 100%;
+        border: 0 solid transparent;
+        border-radius: 1rem 1rem 0 0;
+        box-shadow: none;
+        object-fit: cover;
+        
+    }
+    &-badge {
+        background-color: var(--tertiaire);
+        color: #1b6150;
+        padding: 0.5rem;
+        border-radius: 0.13rem;
+        position: absolute;
+        top: 1rem;
+        right: .75rem;
+    }
+    &-footer {
+        padding: 1rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    &-footer-detail {
+       flex: 1;
+    }
+    &-footer-detail-titre {
+        margin: 0 0 0.25rem;
+    }
+    &-footer-detail-sous-titre {
+        margin: 0;
+    }
+    &-footer-coeur {
+        font-size: 2rem;
+        border: 0 solid transparent;
+        background-color: transparent;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: relative;   
+    }
+    
+    &:hover {
+        transform: scaleX(1.05);
+    }
+}

@@ -4,6 +4,7 @@
 @import "./sass/layout/recherche.scss";
 @import "./sass/layout/fonctionnement.scss";
 @import "./sass/pages/restaurants.scss";
+@import "./sass/layout/menus.scss";
 
 
 
@@ -17,103 +18,18 @@
 
 
 
-/*Main : Restaurants*/
-
-.restaurants {
-    padding: 2rem 1rem;
-    background-color: #f6f6f6;
-    height: 1275px;
-    width: 100%;
-}
-
-.restaurants-conteneur {
-    max-width: 1280px;
-    margin: auto;
-    position: relative; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center; 
-}
-
-.carte {
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    border-radius: 1rem;
-    height: 250px;
-    width: 90%;
-    margin: 15px auto;
-    box-shadow: .25rem .25rem .5rem rgba(0,0,0,.125);
-    position: relative;
-
-}
-
-.carte-lien {
-    position: relative;
-    text-decoration: none;
-    color: inherit;
-    display: block;
-}
-
-.carte-image {
-    height: 175px;
-    width: 100%;
-    border: 0 solid transparent;
-    border-radius: 1rem 1rem 0 0;
-    box-shadow: none;
-    object-fit: cover;
-    
-}
-
-.carte-badge {
-    background-color: var(--tertiaire);
-    color: #1b6150;
-    padding: 0.5rem;
-    border-radius: 0.13rem;
-    position: absolute;
-    top: 1rem;
-    right: .75rem;
-
-}
-.carte-footer {
-    padding: 1rem;
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-.carte-footer-detail {
-   flex: 1;
-}
-
-.carte-titre {
-    margin: 0 0 0.25rem;
-}
-
-.carte-sous-titre {
-    margin: 0;
-}
-.carte-footer-coeur {
-    font-size: 2rem;
-    border: 0 solid black transparent;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    position: relative;
-}
 
 
-.carte:hover {
-    transform: scaleX(1.05);
-}
+
+
+
+
+
 
 /*footer*/
 
 .footer {
     background-color: #353535;
-
 }
 .footer-conteneur {
     display: flex;
