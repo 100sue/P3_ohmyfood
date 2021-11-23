@@ -5,6 +5,7 @@
 @import "./sass/layout/fonctionnement.scss";
 @import "./sass/pages/restaurants.scss";
 @import "./sass/layout/menus.scss";
+@import "./sass/layout/footer.scss"
 
 
 
@@ -26,35 +27,3 @@
 
 
 
-/*footer*/
-
-.footer {
-    background-color: #353535;
-}
-.footer-conteneur {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-}
-.footer-logo {
-    color: white;
-    font-family: 'Shrikhand', cursive;
-    font-size: 1.2rem;
-    margin: 0 0 1rem; 
-}
-.footer-liste  {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.footer-liste-element {
-    margin: 0.5rem 0;
-}
-.footer-lien {
-    color: white;
-    text-decoration: none;
-}
-.footer-icone {
-    width: 1.2rem;
-    margin-right: 0.5rem 0;
-}

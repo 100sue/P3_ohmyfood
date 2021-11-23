@@ -1,0 +1,32 @@
+/*footer*/
+
+.footer {
+    background-color: #353535;
+    &-conteneur {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    &-logo {
+        color: white;
+        font-family: 'Shrikhand', cursive;
+        font-size: 1.2rem;
+        margin: 0 0 1rem; 
+    }
+    &-liste  {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    &-liste-element {
+        margin: 0.5rem 0;
+    }
+    &-lien {
+        color: white;
+        text-decoration: none;
+    }
+    &-icone {
+        width: 1.2rem;
+        margin-right: 0.5rem 0;
+    }
+}

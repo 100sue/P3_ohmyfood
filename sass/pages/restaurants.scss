@@ -1,3 +1,7 @@
+@import "../utils/couleurs.scss";
+@import "../utils/mixins.scss";
+
+
 img {
     display: block;
     width: 100%;
@@ -15,3 +19,106 @@ header h2 {
     margin-top: -4rem;
     display: flex;
 }
+
+.sous-menus {
+    display: grid;
+}
+.sous-menu {
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 1rem;
+    &-titre {
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: .5rem;
+        font-weight: 400;
+        &::after {
+            content: "";
+            width: 3rem;
+            height: .25rem;
+            background-color: #99e2d0;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        
+    }
+}
+.menu-item {
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    border-radius: .75rem;
+    margin: 1rem 0;
+    box-shadow: .25rem .25rem 1rem rgba(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+    &-header {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        margin: 0;
+    }
+    &-titre {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        margin: 0;
+    }
+    &-description {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        margin: 0;
+    
+    }
+    &-prix {
+        font-weight: 700;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-left: auto;
+        padding-left: .5rem;
+    
+    }
+    &-confirmation {
+        background-color: $couleur-tertiaire;
+        margin: -1rem -5rem -1rem 1rem;
+        width: 4rem;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        transition-duration: .5s;
+    }
+    
+    &-wrapicon {
+        height: 1.6rem;
+        width: 1.6rem;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        color: $couleur-tertiaire;
+        transform: rotate(180deg);
+        transition-duration: .5s;
+    
+    }
+    &:hover .menu-item-confirmation {
+        margin-right: -1rem;
+    }
+    &:hover .menu-item-wrapicon {
+        animation: 0.5s ease-in-out;
+        transform: rotate(360deg);
+        transition-duration: .5s;
+    }
+}
+ .commander {
+     height: 30vh;
+     display: grid;
+     place-items: center;
+     button {
+         @include base-bouton;
+     }
+ }
