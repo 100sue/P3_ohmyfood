@@ -15,6 +15,10 @@ img {
     object-fit: cover;
     object-position: center bottom;
 }
+.menu-conteneur{
+    max-width: 1280px;
+    margin: auto;
+}
 
 header h2 {
     font-family:'Shrikhand', sans-serif;
@@ -87,7 +91,6 @@ header h2 {
         text-overflow: ellipsis;
         overflow: hidden;
         margin: 0;
-    
     }
     &-prix {
         font-weight: 700;
@@ -96,7 +99,6 @@ header h2 {
         align-items: flex-end;
         margin-left: auto;
         padding-left: .5rem;
-    
     }
     &-confirmation {
         background-color: $couleur-tertiaire;
@@ -108,7 +110,6 @@ header h2 {
         justify-content: center;
         transition-duration: .5s;
     }
-    
     &-wrapicon {
         height: 1.6rem;
         width: 1.6rem;
@@ -120,7 +121,6 @@ header h2 {
         color: $couleur-tertiaire;
         transform: rotate(180deg);
         transition-duration: .5s;
-    
     }
     &:hover .menu-item-confirmation {
         margin-right: -1rem;
@@ -133,11 +133,11 @@ header h2 {
 }
 @for $i from 0 to 9 {
     .delay-#{$i} {
-      animation-delay:  #{$i/10}s;
+      animation-delay: #{$i/10}s;
     }
   }
 
- .commander {
+ .commandes {
     display: flex;
     text-decoration: none;
     justify-content: center;
