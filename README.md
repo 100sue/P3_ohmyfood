@@ -26,7 +26,6 @@ Développer un site proposant le menu de 4 grands restaurants parisiens.<br>
 Et, permettre la réservation en ligne et la composition de menus.<br>
 
 <strong>Livrables :<br></strong>
-<br>
 
 Pages à intégrer selon les maquettes :<br>
 - Page d’accueil.<br>
@@ -53,7 +52,8 @@ pourront  soit apparaître un par un , soit par groupe "entrées", "plats" et "d
 Cette encoche devra coulisser de la droite vers la gauche et l'effet apparaîtra au survol (au lieu du clic).
 - Si lintitulé du plat est trop long, il devra être rogné avec des points de suspension (voir exemple maquette)
 
-
+<br>
+<br>
 Technologies utilisées :
 
 HTML / CSS / Sass
