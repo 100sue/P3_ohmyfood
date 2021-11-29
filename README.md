@@ -6,14 +6,14 @@ L'objectif d'intégrer puis de dynamiser une page web avec des animations CSS en
 
 <strong>Compétences visées : Dynamisez une page web avec des animations css.</strong><br>
 
-[ ]  Mettre en place une structure de navigation pour un site web.<br>
-[ ]  Mettre en place son environnement Front-End.<br>
-[ ]  Utiliser un système de gestion de versions pour le suivi du projet et son hébergement.<br>
-[ ]  Mettre en œuvre des effets CSS graphiques avancés.<br>
-[ ]  Assurer la cohérence graphique d'un site web.<br>
+[x]  Mettre en place une structure de navigation pour un site web.<br>
+[x]  Mettre en place son environnement Front-End.<br>
+[x]  Utiliser un système de gestion de versions pour le suivi du projet et son hébergement.<br>
+[x]  Mettre en œuvre des effets CSS graphiques avancés.<br>
+[x]  Assurer la cohérence graphique d'un site web.<br>
 <br>
 
-Accès au projet : https://100sue.github.io/P3_ohmyfood/ (en cours de construction)
+Accès au projet : https://100sue.github.io/P3_ohmyfood/ 
 
 <br>
 <br>
