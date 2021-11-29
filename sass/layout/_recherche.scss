@@ -1,4 +1,4 @@
-@import "../utils/mixins.scss";
+@import "../utils/_mixins.scss";
 
 
 
@@ -7,7 +7,7 @@
 .recherche {
     text-align: center;
     padding: 2rem;
-    background-color: #f6f6f6;
+    background-color: #fafafa;
     & p {
         font-weight: 300;
     }

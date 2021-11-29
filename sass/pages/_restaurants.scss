@@ -1,11 +1,23 @@
-@import "../utils/couleurs.scss";
-@import "../utils/mixins.scss";
-@import "../utils/animation.scss";
+@import "../utils/_couleurs.scss";
+@import "../utils/_mixins.scss";
+@import "../utils/_animation.scss";
 
 
-.header {
+.header--avecfleche {
     position: relative;
-
+}
+.header__fleche {
+    position: absolute;
+    left: 2rem;
+    height: 2rem;
+    width: 2rem;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #000;
 }
 
 img {

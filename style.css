@@ -37,7 +37,7 @@ a {
   opacity: 0.9;
   animation: disparition 200ms;
   animation-fill-mode: forwards;
-  animation-delay: 6s;
+  animation-delay: 2s;
   transform-origin: top;
 }
 .loader::after {
@@ -69,11 +69,12 @@ a {
 }
 .header {
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
-  padding: 0.5rem;
+  padding: 1rem;
+  position: relative;
 }
 .header-logo {
   font-family: "Shrikhand", cursive;
-  font-size: 20px;
+  font-size: 35px;
   text-align: center;
   margin: 0;
 }
@@ -82,8 +83,6 @@ a {
 /*Main : ville*/
 .main {
   margin-top: 0;
-  margin-right: 1rem;
-  margin-left: 1rem;
 }
 
 .ville {
@@ -107,7 +106,7 @@ a {
 .recherche {
   text-align: center;
   padding: 2rem;
-  background-color: #f6f6f6;
+  background-color: #fafafa;
 }
 .recherche p {
   font-weight: 300;
@@ -129,7 +128,7 @@ a {
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
 }
 .recherche button:hover {
-  transform: scaleX(1.03);
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
   opacity: 0.9;
 }
 
@@ -164,7 +163,7 @@ a {
   border-radius: 1.25rem;
   box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
   margin: 1rem 0 1rem 0.75rem;
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
   align-items: center;
   position: relative;
@@ -186,9 +185,6 @@ a {
   margin-right: 1rem;
   margin-left: 1rem;
 }
-.fonctionnement-demarche:hover {
-  transform: scaleX(1.03);
-}
 .fonctionnement-demarche i:hover {
   color: #9356DC;
 }
@@ -207,8 +203,22 @@ a {
     opacity: 1;
   }
 }
-.header {
+.header--avecfleche {
   position: relative;
+}
+
+.header__fleche {
+  position: absolute;
+  left: 2rem;
+  height: 2rem;
+  width: 2rem;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #000;
 }
 
 img {
@@ -396,7 +406,7 @@ header h2 {
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
 }
 .commandes-btn:hover {
-  transform: scaleX(1.03);
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
   opacity: 0.9;
 }
 
@@ -413,7 +423,7 @@ header h2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 2rem;
-  row-gap: 2rem;
+  row-gap: 1rem;
 }
 @media (max-width: 800px) {
   .restaurants-conteneur {
@@ -424,7 +434,6 @@ header h2 {
 .carte {
   background-color: #fff;
   border-radius: 1rem;
-  height: 250px;
   width: 100%;
   margin: 15px auto;
   box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
@@ -437,7 +446,7 @@ header h2 {
   display: block;
 }
 .carte-image {
-  height: 175px;
+  height: 12rem;
   width: 100%;
   border: 0 solid transparent;
   border-radius: 1rem 1rem 0 0;
@@ -479,9 +488,6 @@ header h2 {
   cursor: pointer;
   position: relative;
 }
-.carte:hover {
-  transform: scaleX(1.05);
-}
 
 /*footer*/
 .footer {
@@ -512,7 +518,7 @@ header h2 {
 }
 .footer-icone {
   width: 1.2rem;
-  margin-right: 0.5rem;
+  margin-right: 0.5rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */

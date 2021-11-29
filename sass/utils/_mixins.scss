@@ -20,7 +20,7 @@
         cursor: pointer;
         @include base-shadow;
         &:hover {
-            @include zoom;
+            box-shadow: .25rem .25rem 10px rgba(0,0,0,.25);
             opacity: 0.9;
         }
 }
