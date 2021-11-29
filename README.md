@@ -20,9 +20,9 @@ Accès au projet : https://100sue.github.io/P3_ohmyfood/
 
 ![Maquettes Ohmyfood](https://user-images.githubusercontent.com/90606431/136688997-04a2ac10-b014-4fc2-90ea-3ab74d9f5445.jpg)
 
-<br>
+
 <strong>Objectifs :<br></strong>
-- Développer un site proposant le menu de 4 grands restaurants parisiens.<br>
+- Développer un site proposant le menu de quatre grands restaurants parisiens.<br>
 - Et, permettre la réservation en ligne et la composition de menus.<br>
 <br>
 <strong>Livrables :<br></strong>
