@@ -18,10 +18,13 @@
 .fonctionnement-demarches {
     margin: 0;
     padding: 0;
+    gap: 1rem;
     list-style: none;
     display: flex;
     @media (max-width: $breakpoint) {
         flex-direction: column;
+        gap: 0;
+        
     }
       
 }
@@ -48,7 +51,7 @@
         left: -0.5rem;
     }
     & i {
-        margin-right: 1rem;
+        
         margin-left: 1rem;
     }
     
