@@ -510,6 +510,7 @@ img {
 }
 .carte-footer-coeur:hover .fas {
   opacity: 1;
+  transform: scale(1.1);
 }
 
 /*footer*/
