@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-
+@import "../utils/couleurs";
 
 
 *,
@@ -47,8 +47,8 @@ a {
         height: 100px;
         width: 100px;
         border-right: 5px solid transparent;
-        border-top: 5px solid  #9356DC;
-        border-bottom: 5px solid #FF79DA;
+        border-top: 5px solid $couleur-primaire;
+        border-bottom: 5px solid $couleur-secondaire;
         border-radius: 50%;
         animation: spin 2s infinite linear;
     }

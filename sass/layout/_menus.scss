@@ -1,5 +1,6 @@
 @import "../utils/_variables.scss";
 @import "../utils/mixins";
+@import "../utils/couleurs";
 
 /*Main : Restaurants*/
 
@@ -47,8 +48,8 @@
         object-fit: cover;
     }
     &-badge {
-        background-color: var(--tertiaire);
-        color: #1b6150;
+        background-color: $couleur-tertiaire;
+        color: $couleur-etiquette;
         padding: 0.5rem;
         border-radius: 0.13rem;
         position: absolute;

@@ -33,7 +33,7 @@ img {
     margin: auto;
     margin-top: -4rem;
     border-radius: 2rem 2rem 0 0;
-    background-color: #f6f6f6;
+    background-color: $couleur-background;
     z-index: 1;
     position: relative;  
 }
@@ -69,7 +69,7 @@ img {
             content: "";
             width: 3rem;
             height: .25rem;
-            background-color: #99e2d0;
+            background-color: $couleur-tertiaire;
             position: absolute;
             left: 0;
             bottom: 0;

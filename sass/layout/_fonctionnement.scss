@@ -29,7 +29,7 @@
       
 }
 .fonctionnement-demarche {
-    background-color: #f6f6f6;
+    background-color: $couleur-background;
     border-radius: 1.25rem;
     box-shadow: .25rem .25rem .5rem rgba(0,0,0,.125);
     margin: 1rem 0 1rem .75rem;
@@ -56,7 +56,7 @@
     }
     
     & i:hover {
-        color: #9356DC;
+        color: $couleur-primaire;
     }
     
     &-titre {
