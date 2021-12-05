@@ -13,7 +13,7 @@ L'objectif est d'intégrer puis de dynamiser une page web avec des animations CS
 [x]  Assurer la cohérence graphique d'un site web.<br>
 <br>
 
-Accès au projet : https://100sue.github.io/P3_ohmyfood/ 
+Accès au projet : https://100sue.github.io/RolandAPPERT_3_09102021/
 
 <br>
 <br>
