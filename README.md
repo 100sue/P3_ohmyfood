@@ -43,7 +43,7 @@ Au survol, il devra se remplir progressivement.
 Page d’accueil :
 - Quand l'application possèdera plus de menus, un "loading spinner" sera nécessaire. Nous souhaitons en avoir un aperçu :
 - il devra apparaître pendant 1 à 3 secondes quand on arrive sur la page d'acceuil, couvrir l'intégralité de l'écran, et utiliser les animations CSS.
-- Le desin de ce loader n'est pas défini, toute proposition est donc la bienvenue tant qu’elle est cohérente avec la chartegraphique du site.
+- Le desin de ce loader n'est pas défini, toute proposition est donc la bienvenue tant qu’elle est cohérente avec la charte graphique du site.
 
 
 Pages de menu :
@@ -51,7 +51,7 @@ Pages de menu :
 pourront  soit apparaître un par un , soit par groupe "entrées", "plats" et "desserts" (voir exemple dans la maquette).
 - Le client peut ajouter des plats à sa commande en cliquant dessus, ce qui fera apparaître une petite encoche à droite du plat.
 Cette encoche devra coulisser de la droite vers la gauche et l'effet apparaîtra au survol (au lieu du clic).
-- Si lintitulé du plat est trop long, il devra être rogné avec des points de suspension (voir exemple maquette)
+- Si l'intitulé du plat est trop long, il devra être rogné avec des points de suspension (voir exemple maquette)
 
 <br>
 <br>
