@@ -159,6 +159,9 @@ a {
     gap: 0;
   }
 }
+.fonctionnement-demarches :hover {
+  background-color: #f2eafb;
+}
 
 .fonctionnement-demarche {
   background-color: #f6f6f6;
