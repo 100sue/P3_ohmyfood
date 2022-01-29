@@ -58,5 +58,10 @@ Cette encoche devra coulisser de la droite vers la gauche et l'effet apparaîtra
 Technologies utilisées : HTML / CSS / Sass
 
 
+<br>
+  
+  <p align="center">
+<img src= "https://user-images.githubusercontent.com/90606431/151660985-c0a30670-7d3b-4b86-89fe-566e96a15e79.jpg" />
+</p>
 
 
