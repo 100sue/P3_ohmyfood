@@ -1,3 +1,8 @@
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/90606431/151769677-b99dbf89-68f6-46b6-9f01-ace009ae7202.jpg" />
+</p>
+
+
 # Projet 3 : Oh myfood (Projet Openclassrooms) #
 
 Troisième projet du parcours "Développeur web" chez OpenClassroom.<br>
